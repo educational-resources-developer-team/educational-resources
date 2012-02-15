@@ -26,7 +26,7 @@
 		</script>
     </head>
     <body>
-		<h1 class="title">Proyecto de matematicas.</h1>
+		<!--<h1 class="title">Proyecto de matematicas.</h1>-->
 		<div class="book_wrapper">
 			<a id="next_page_button"></a>
 			<a id="prev_page_button"></a>
@@ -233,9 +233,10 @@
 							$bttn_next.show();
 							$bttn_prev.show();
 							$mybook.show().booklet({
+								autoCenter:			true,
 								name:               null,                            // name of the booklet to display in the document title bar
-								width:              800,                             // container width
-								height:             500,                             // container height
+								width:              1200,                             // container width
+								height:             800,                             // container height
 								speed:              600,                             // speed of the transition between pages
 								direction:          'LTR',                           // direction of the overall content organization, default LTR, left to right, can be RTL for languages which read right to left
 								startingPage:       0,                               // index of the first page to be displayed

@@ -75,12 +75,13 @@ span.reference a:hover{
 	opacity:0.8;
 }
 .book_wrapper{
+	background:transparent url(../images/bg.png) no-repeat 9px 27px;
+	height:540px;
 	margin:0 auto;
 	padding-top:50px;
-	width:905px;
-	height:540px;
 	position:relative;
-	background:transparent url(../images/bg.png) no-repeat 9px 27px;
+	width: 1200px;
+	/*width:905px;*/
 }
 .book_wrapper h1{
 	color:#13386a;
@@ -139,10 +140,10 @@ a#prev_page_button{
 	background:transparent url(../images/buttons.png) no-repeat 0px -40px;
 }
 a#prev_page_button{
-	left:-30px;
+	left:-100px;
 }
 a#next_page_button{
-	right:-30px;
+	right:-100px;
 	background-position:-41px -40px;
 }
 a#next_page_button:hover{
@@ -169,4 +170,10 @@ a#prev_page_button:hover{
 	-webkit-border-radius:20px;
 	border-radius:20px;
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+/* Adding some testing styles */
+
+#mybook {
+	background-color: blue;
 }
