@@ -116,14 +116,36 @@ span.reference a:hover{
 	background-position:50% -41px;
 	color:#13386a;
 }
-.book_wrapper img{
-	margin:10px 0px 5px 35px;
-	width:300px;
-	padding:4px;
+
+/* Article container */
+
+.book_wrapper .book-page {
+	background-position: center;
+	background-repeat: no-repeat;
 	border:1px solid #ddd;
+	box-shadow:1px 1px 1px #fff;
 	-moz-box-shadow:1px 1px 1px #fff;
 	-webkit-box-shadow:1px 1px 1px #fff;
+	height: 780px;
+	margin: 0;
+	padding:4px;
+	width: 600px;
+}
+
+/* Article container */
+
+
+.book_wrapper img{
+	border:1px solid #ddd;
 	box-shadow:1px 1px 1px #fff;
+	-moz-box-shadow:1px 1px 1px #fff;
+	-webkit-box-shadow:1px 1px 1px #fff;
+	height: 100%;
+	margin: 0;
+	/*margin:10px 0px 5px 35px;*/
+	padding:4px;
+	width: 100%;
+	/*width:300px;*/
 }
 .booklet .b-wrap-right img{
 	border:1px solid #E6E3C2;
